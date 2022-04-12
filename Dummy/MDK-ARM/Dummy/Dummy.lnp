@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"dummy\startup_stm32f103xb.o"
+"dummy\main.o"
+"dummy\gpio.o"
+"dummy\tim.o"
+"dummy\usart.o"
+"dummy\stm32f1xx_it.o"
+"dummy\stm32f1xx_hal_msp.o"
+"dummy\stm32f1xx_hal_gpio_ex.o"
+"dummy\stm32f1xx_hal_tim.o"
+"dummy\stm32f1xx_hal_tim_ex.o"
+"dummy\stm32f1xx_hal.o"
+"dummy\stm32f1xx_hal_rcc.o"
+"dummy\stm32f1xx_hal_rcc_ex.o"
+"dummy\stm32f1xx_hal_gpio.o"
+"dummy\stm32f1xx_hal_dma.o"
+"dummy\stm32f1xx_hal_cortex.o"
+"dummy\stm32f1xx_hal_pwr.o"
+"dummy\stm32f1xx_hal_flash.o"
+"dummy\stm32f1xx_hal_flash_ex.o"
+"dummy\stm32f1xx_hal_exti.o"
+"dummy\stm32f1xx_hal_uart.o"
+"dummy\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Dummy\Dummy.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Dummy.map" -o Dummy\Dummy.axf
