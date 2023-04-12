@@ -1,6 +1,6 @@
 Group 9
 TItle: Automated Satellite TV Dish Alignment System
-Author: Mingxiao Li, Shuo Xu(Fine-tuning, GPS angles conversion)
+Author: Mingxiao Li
 
 This is a capstone project code repository
 Automatic_Satellite_Project_Day_Demo is the finalized version for demo
